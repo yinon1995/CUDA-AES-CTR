@@ -1,6 +1,81 @@
-*.i
-*.ii
-*.gpu
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Compiled Dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CUDA-generated files
 *.ptx
 *.cubin
+
+# CUDA-Intermediate Object Files
 *.fatbin
+*.cudafe1.cpp
+*.cudafe1.stub.c
+*.cudafe2.stub.c
+
+# Visual Studio files
+.vscode/
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.pdb
+*.log
+*.ipch/
+*.obj/
+*.pch
+*.idb
+*.ilk
+*.sdf
+*.cache
+*.aps
+*.ncb
+*.opensdf
+*.suo
+*.tlog/
+*.lastbuildstate
+*.unsuccessfulbuild
+*.sln.docstates
+*.build.csproj
+*.csproj.user
+*.vcxproj.user
+*.filters
+_Debug/
+_Release/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE specific
+.idea/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and other temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.pid
+*.seed
+*.directory
